@@ -22,7 +22,7 @@ controls:
     deadline: "2025-08-21"
     minimun_version: "16.0"
   macos_settings:
-    custom_settings: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing (1).mobileconfig
+    custom_settings: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
