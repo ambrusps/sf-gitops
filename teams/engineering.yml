@@ -21,7 +21,7 @@ controls:
   enable_disk_encryption: true
   macos_updates:
     deadline: "2025-08-21"
-    minimun_version: "16.0"
+    minimum_version: "16.0"
   macos_settings:
     custom_settings: 
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
