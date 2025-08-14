@@ -23,6 +23,9 @@ controls:
   macos_updates:
     deadline: "2025-08-21"
     minimum_version: "16.0"
+  ipados_updates:
+    deadline: "2-25-08-30"
+    minimum_version: "18.2"
   macos_settings:
     custom_settings: 
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
@@ -45,6 +48,3 @@ team_settings:
       policy_ids:
         - 41
 software:
-ipados_updates:
-  deadline: "2-25-08-30"
-  minimum_version: "18.2"
